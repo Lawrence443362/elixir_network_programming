@@ -26,6 +26,8 @@ defmodule Network do
 
   When we working with socket data, it like work with file, but read data cannot be read again
 
+  In this case, we read all the socket data at once.
+
   Function return:
   {:ok, message} | {:error, reason}
   """
